@@ -10,6 +10,7 @@ int main(void){
         .kd = f2q15(0.01f),
         .i_acc = 0,
         .d_prev = 0,
+        .d_filt_state = 0,
         .d_alpha = f2q15(0.85f),
         .i_limit = f2q15(0.5f),
         .u_min = f2q15(-1.0f),
